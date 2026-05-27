@@ -10,14 +10,11 @@ export default function About(){
   };
 
   return (
-    <motion.section
-      initial={{ opacity: 0 }}
-      animate={{ opacity: 1 }}
-      transition={{ duration: 0.5 }}
+    <section
       id="about"
       className="overflow-x-hidden bg-gray-50 sm:scroll-mt-20"
     >
 
-</motion.section>
+</section>
 )
 };

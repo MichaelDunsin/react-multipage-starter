@@ -10,15 +10,12 @@ export default function Hero(){
   };
 
   return (
-    <motion.section
-      initial={{ opacity: 0 }}
-      animate={{ opacity: 1 }}
-      transition={{ duration: 0.5 }}
-      id="home"
+  <section
+      id="about"
       className="overflow-x-hidden bg-gray-50 sm:scroll-mt-20"
     >
 
-</motion.section>
+</section>
 )
 };
 
