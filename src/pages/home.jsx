@@ -2,17 +2,17 @@ import { FaWhatsapp } from "react-icons/fa";
 import { useEffect, useState } from "react";
 import { useLocation } from "react-router-dom";
 import { AnimatePresence, motion } from "motion/react";
-import Header from "./components/header";
-import Hero from "./components/hero";
-import Problems from "./components/problems";
-import Solutions from "./components/solutions";
-import Features from "./components/features";
-import Testimonials from "./components/testimonials";
-import About from "./components/about";
-import HowItWorks from "./components/howitworks";
-import FAQ from "./components/faq";
-import CTA from "./components/cta";
-import Footer from "./components/footer";
+import Header from "../components/header";
+import Hero from "../components/hero";
+import Problems from "../components/problems";
+import Solutions from "../components/solutions";
+import Features from "../components/features";
+import Testimonials from "../components/testimonials";
+import About from "../components/about";
+import HowItWorks from "../components/howitworks";
+import FAQ from "../components/faq";
+import CTA from "../components/cta";
+import Footer from "../components/footer";
 
 
 export default function Home() {
